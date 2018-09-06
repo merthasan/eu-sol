@@ -15,9 +15,6 @@ int main() {
     int i = i1 + i2;
     int sum = 0;
     
-    //printf("%d, ", i1);
-    //printf("%d, ", i2);
-    //printf("%d, ", i);
     
     while (i < 4000000) {
         if (i % 2 == 0)
@@ -27,10 +24,7 @@ int main() {
         i2 = i;
         i = i1 + i2;
         
-        
-        //printf("%d, ",i);
     }
     printf("The sum of all even numbers smaller than 4 million is %d\n", sum + 2);
-    //printf("\n");
 }
 
