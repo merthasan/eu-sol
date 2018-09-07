@@ -1,11 +1,3 @@
-//
-//  main.c
-//  euler2
-//
-//  Created by Mert Hasan on 6.09.2018.
-//  Copyright © 2018 Mert Hasan. All rights reserved.
-//
-
 #include <stdio.h>
 #include <math.h>
 
@@ -15,7 +7,6 @@ int main() {
     int i = i1 + i2;
     int sum = 0;
     
-    
     while (i < 4000000) {
         if (i % 2 == 0)
             sum = sum + i;
@@ -23,8 +14,6 @@ int main() {
         i1 = i2;
         i2 = i;
         i = i1 + i2;
-        
     }
     printf("The sum of all even numbers smaller than 4 million is %d\n", sum + 2);
 }
-
