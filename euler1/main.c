@@ -1,11 +1,3 @@
-//
-//  main.c
-//  euler1
-//
-//  Created by Mert Hasan on 6.09.2018.
-//  Copyright © 2018 Mert Hasan. All rights reserved.
-//
-
 #include <stdio.h>
 #include <math.h>
 
